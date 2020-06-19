@@ -3,5 +3,6 @@
 This project contains all of the VHDL codes for sequential circuits that I have practiced.
 The outputs of the codes are as follows and the codes are provided in the respective repositories.
 
-## 4-bit binary adder (with 1bit carry)
-![](Output-screenshots/4-bit-Binary-Adder(with-1bit-carry).png)
+## D flip-flop (with 1bit carry) 
+#### [using all conditional methods(wait (no reset), wait (synchronous reset) , asynchronous reset, asynchronous reset with enable)]
+![](D%20flip-flop/D_flip_flop.png)
