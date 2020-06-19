@@ -1,0 +1,53 @@
+--library declaration;
+library ieee;
+use ieee.std_logic_1164.all;
+
+--entity
+entity memory_Dff IS
+   port( read_data     : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+	 read_address  : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+	 write_data    : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+	 write_address : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+	 Memwrite      : IN STD_LOGIC;
+ 	 clock,reset   : IN STD_LOGIC );
+end memory_Dff;
+
+--architecture
+architecture behavior of memory_Dff  is
+
+signal mem0, mem1 : STD_LOGIC_VECTOR( 7 DOWNTO 0 );
+
+begin
+-------READ OPERATION------------------------------------------
+   process (read_address, mem0, mem1) 
+	begin
+	   case read_address is
+		when "000" =>
+		   read_data <= mem0;
+		when "001" =>
+	  	   read_data <= mem1;
+		when OTHERS => -- Unimplemented memory locations
+		   read_data <= X"FF" ;
+	   end case;
+   end process;
+-------WRITE OPERATION------------------------------------------
+   process
+	begin
+	   wait until clock 'EVENT AND clock = '1';
+		if ( reset = '1' ) then
+		   mem0 <= X"55" ; -- Initial values for memory (optional)
+		   mem1 <= X"AA" ;
+		else
+		 if memwrite = '1' then -- Write to memory
+		   case write_address IS -- Use a flip-flop with
+			when "000" => -- an enable for memory
+			   mem0 <= write_data;
+			when "001" =>
+			   mem1 <= write_data;
+			when OTHERS => -- unimplemented memory locations
+			   NULL;
+		  end case;
+		 end if;
+		end if;
+   end process;
+end behavior;
