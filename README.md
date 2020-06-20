@@ -4,7 +4,8 @@ This project contains all of the VHDL codes for sequential circuits that I have 
 The outputs of the codes are as follows and the codes are provided in the respective repositories.
 
 ## Counter (8 bit)
-#### need TB code
+#### Counts to the value set in Max_count
+![](Counter%20(8bit)/Counter.png)
 
 ## D flip-flop
 #### [using all conditional methods(wait (no reset), wait (synchronous reset) , asynchronous reset, asynchronous reset with enable)]
