@@ -19,6 +19,11 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Memory%20(using%20D%20flip-flop)/Memory_Dff.png)
 ![](Memory%20(using%20D%20flip-flop)/Memory_Dff2.png)
 
+## Register file
+#### Register Files allow addressing of registers.
+##### (only code) 
+![](Register%20File/Register_File_fig.png)
+
 ## Shift Register (4bit)
 ![](Shift%20Register%20(4bit)/Shift_Register.png)
 ![](Shift%20Register%20(4bit)/Shift_Register_op.png)
