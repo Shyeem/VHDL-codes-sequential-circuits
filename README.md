@@ -20,7 +20,7 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Memory%20(using%20D%20flip-flop)/Memory_Dff2.png)
 
 ## ROM
-##### (The data is obtained after one cycle from when address is called) 
+##### The data is obtained after one cycle from when address is called. 
 ![](ROM/ROM.png)
 
 ## Register file
