@@ -19,6 +19,9 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Memory%20(using%20D%20flip-flop)/Memory_Dff.png)
 ![](Memory%20(using%20D%20flip-flop)/Memory_Dff2.png)
 
+## RAM (128 by 32 single-port)
+![](RAM%20(Single%20port)/RAM%20(128%20by%2032)%20(single-port).png)
+
 ## ROM
 ##### The data is obtained after one cycle from when address is called. 
 ![](ROM/ROM.png)
