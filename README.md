@@ -15,6 +15,10 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Data%20Register%20(8bit)/data_reg.png)
 ![](Data%20Register%20(8bit)/data_reg_op.png)
 
+## FIFO memory (8x9)
+#### 8-deep, 9 bits wide.
+![](FIFO%20memory%20(8x9)/fifo.png)
+
 ## A Finite State Machine (FSM)
 #### Designed according to the following diagram.
 ![](FSM/fig.png)
