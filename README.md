@@ -15,6 +15,11 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Data%20Register%20(8bit)/data_reg.png)
 ![](Data%20Register%20(8bit)/data_reg_op.png)
 
+## A Finite State Machine (FSM)
+#### Designed according to the following diagram.
+![](FSM/fig.png)
+![](FSM/FSM_op.png)
+
 ## Memory (8bit) (using D flip-flop)
 ![](Memory%20(using%20D%20flip-flop)/Memory_Dff.png)
 ![](Memory%20(using%20D%20flip-flop)/Memory_Dff2.png)
