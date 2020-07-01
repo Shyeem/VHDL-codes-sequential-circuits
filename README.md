@@ -14,7 +14,7 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Clock%20Divider/clk_div.png)
 
 ## Counter (8 bit)
-#### Counts to the value set in Max_count
+#### Counts up to the value set in Max_count [up-counter]
 ![](Counter%20(8bit)/Counter.png)
 
 ## D flip-flop
