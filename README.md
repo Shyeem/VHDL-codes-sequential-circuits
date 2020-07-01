@@ -4,9 +4,11 @@ This project contains all of the VHDL codes for sequential circuits that I have 
 The outputs of the codes are as follows and the codes are provided in the respective repositories.
 
 ## Two 8-bit Registers controlled by a 2:1 MUX
-#### Circuit:
+#### Circuit
+
 ![](A%20MUX%20(2:1)%20with%202%20Registers%20(8-bit)/ex_24_ckt.png)
-#### Output:
+#### Output
+
 ![](A%20MUX%20(2:1)%20with%202%20Registers%20(8-bit)/ex_24_op.png)
 
 ## Counter (8 bit)
