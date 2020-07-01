@@ -10,6 +10,9 @@ The outputs of the codes are as follows and the codes are provided in the respec
 #### Output:
 ![](ex_24_op.png)
 
+## Clock Divider
+![](Clock%20Divider/clk_div.png)
+
 ## Counter (8 bit)
 #### Counts to the value set in Max_count
 ![](Counter%20(8bit)/Counter.png)
